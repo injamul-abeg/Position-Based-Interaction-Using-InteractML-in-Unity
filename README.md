@@ -33,6 +33,8 @@ Key Model Components:
 3. Prediction Usage: The predicted integer value is used to dynamically control the
 intensity of light in Unity.
 
+![image alt](https://github.com/injamul-abeg/Position-Based-Interaction-Using-InteractML-in-Unity/blob/main/Light_Intensity_InteractML.png?raw=true)
+
 Training and Evaluation
 
 Training Process
