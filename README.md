@@ -1,6 +1,7 @@
 # Position-Based-Interaction-Using-InteractML-in-Unity
 
 Introduction
+
 In this project, we aim to create a position-based interaction system using Unity and
 InteractML. Our goal is to train a machine learning model which classify and recognize
 different movement data of the player based on specific positions in real-time and use
@@ -10,6 +11,7 @@ trained the classification model using InteractML, where the trained model can
 dynamically update environmental settings in Unity based on live position data.
 
 Dataset
+
 The dataset we used for this project consists of live position data recordings of an
 avatar in a lab environment. We recorded different training examples and each
 representing distinct states or behavior of the player. These recordings provided
@@ -20,6 +22,7 @@ These features were mapped to the corresponding integer labels to enable
 classification.
 
 Model
+
 We used InteractML’s Classification Model to recognize and classify avatar positions
 based on the training data we collected. The classification model takes the position data
 as input and outputs an integer that is the current state of the avatar. Several recording
@@ -31,6 +34,7 @@ Key Model Components:
 intensity of light in Unity.
 
 Training and Evaluation
+
 Training Process
 • We manually recorded multiple training examples for each state by assigning
 different integer values. Then we moved the avatar position differently after every
@@ -54,6 +58,7 @@ The performance of the model was reliable when tested with new live position dat
 where it is updating environmental parameters in real-time.
 
 Conclusion
+
 This project successfully implemented a position-based interaction system using Unity
 and InteractML. By training a classification model with live position data, we are able to
 control environmental settings such as light intensity based on avatar movement. The
