@@ -61,7 +61,9 @@ outputs for most cases. This classification allowed us to control the intensity 
 dynamically in Unity:
 
 • Integer (0): Light intensity set to 0
+
 • Integer (1): Light intensity set to 1
+
 • Integer (2): Light intensity set to 2
 
 The performance of the model was reliable when tested with new live position data,
