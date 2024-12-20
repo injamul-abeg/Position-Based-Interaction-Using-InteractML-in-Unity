@@ -38,26 +38,34 @@ intensity of light in Unity.
 Training and Evaluation
 
 Training Process
+
 • We manually recorded multiple training examples for each state by assigning
 different integer values. Then we moved the avatar position differently after every
 input. These recording examples were fed into the InteractML Classification
 Model for training.
+
 • The model learned to associate position coordinates with the corresponding
 integer labels.
+
 Evaluation
+
 • After training, we tested the model that is able to classify position of the avatar
-and control the intensity of the light based of avatar position. The model's
+and control the intensity of the light based of avatar's position. The model's
 predictions were evaluated by observing the output integer and checking if it
 matched the expected state.
+
 Results
+
 The model efficiently classified avatar positions and generated the correct integer
 outputs for most cases. This classification allowed us to control the intensity of light
 dynamically in Unity:
+
 • Integer (0): Light intensity set to 0
 • Integer (1): Light intensity set to 1
 • Integer (2): Light intensity set to 2
+
 The performance of the model was reliable when tested with new live position data,
-where it is updating environmental parameters in real-time.
+where it updates environmental parameters in real time.
 
 Conclusion
 
