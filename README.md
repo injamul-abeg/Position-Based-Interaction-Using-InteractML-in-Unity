@@ -8,6 +8,7 @@ this data to adjust environmental parameters accordingly, such as changing light
 intensity based on movement states. After recording several training examples we
 trained the classification model using InteractML, where the trained model can
 dynamically update environmental settings in Unity based on live position data.
+
 Dataset
 The dataset we used for this project consists of live position data recordings of an
 avatar in a lab environment. We recorded different training examples and each
@@ -17,6 +18,7 @@ Feature Extraction:
 • The primary feature extraction was the avatar's position coordinates (e.g., x, y, z).
 These features were mapped to the corresponding integer labels to enable
 classification.
+
 Model
 We used InteractML’s Classification Model to recognize and classify avatar positions
 based on the training data we collected. The classification model takes the position data
@@ -27,6 +29,7 @@ Key Model Components:
 2. Output Labels: Integer values (0, 1, 2, 3).
 3. Prediction Usage: The predicted integer value is used to dynamically control the
 intensity of light in Unity.
+
 Training and Evaluation
 Training Process
 • We manually recorded multiple training examples for each state by assigning
@@ -49,6 +52,7 @@ dynamically in Unity:
 • Integer (2): Light intensity set to 2
 The performance of the model was reliable when tested with new live position data,
 where it is updating environmental parameters in real-time.
+
 Conclusion
 This project successfully implemented a position-based interaction system using Unity
 and InteractML. By training a classification model with live position data, we are able to
