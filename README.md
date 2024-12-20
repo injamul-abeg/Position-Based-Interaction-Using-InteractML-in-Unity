@@ -64,6 +64,8 @@ and InteractML. By training a classification model with live position data, we a
 control environmental settings such as light intensity based on avatar movement. The
 performance of the system highlights the potential for using machine learning to
 enhance interactive experiences in Unity-based applications.
+
 References
+
 1. InteractML Unity
  
