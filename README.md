@@ -51,9 +51,9 @@ position coordinates with the corresponding integer labels.
 
 Evaluation
 
-• After training, we tested the model that is able to classify position of the avatar
-and control the light based on avatar´s current state. We evaluated the
-performance of the model using a confusion matrix.
+• After training, we tested the model that is able to classify position of the avatar and control the light based on avatar´s current state. We evaluated the performance of the model using a confusion matrix.
+
+
 ![image alt](https://github.com/injamul-abeg/Position-Based-Interaction-Using-InteractML-in-Unity/blob/main/Heat%20Map.png)
 
 Results
