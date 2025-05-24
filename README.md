@@ -50,21 +50,37 @@ position coordinates with the corresponding integer labels.
 ![image alt](https://github.com/injamul-abeg/Position-Based-Interaction-Using-InteractML-in-Unity/blob/main/Data%20Recording.jpg)
 
 Evaluation
+
 • After training, we tested the model that is able to classify position of the avatar
 and control the light based on avatar´s current state. We evaluated the
 performance of the model using a confusion matrix.
+![image alt](https://github.com/injamul-abeg/Position-Based-Interaction-Using-InteractML-in-Unity/blob/main/Heat%20Map.png)
+
 Results
+
 The model efficiently classified avatar positions based on the input label. This
 classification allowed us to control the environment light dynamically in Unity where the
 color of the light turn red and green for the predicted integer value 0 and 1 respectively.
+
+![image alt](https://github.com/injamul-abeg/Position-Based-Interaction-Using-InteractML-in-Unity/blob/main/Red.png)
+
+![image alt](https://github.com/injamul-abeg/Position-Based-Interaction-Using-InteractML-in-Unity/blob/main/Green.png)
+
 As we evaluated the accuracy of the model’s classification using confusion matrix, here
 is the key metrics output value from the confusion matrix:
+
 • Accuracy: 0.90, where the model correctly classified 90% of all cases.
+
 • Precision: 0.92, when the model predicts positive, it is correct 92% of the time.
+
 • Recall: 0.98, the model almost correctly identifies actual positives.
+
 • F1-Score: 0.95, suggest a good balance between precision and recall.
+
 The performance of the model was reliable when tested with new live position data,
 where it is updating environmental parameters in real-time.
+
+![image alt](https://github.com/injamul-abeg/Position-Based-Interaction-Using-InteractML-in-Unity/blob/main/Result.png)
 
 References
 
