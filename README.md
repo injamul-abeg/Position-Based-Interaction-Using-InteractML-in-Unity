@@ -63,7 +63,6 @@ classification allowed us to control the environment light dynamically in Unity 
 color of the light turn red and green for the predicted integer value 0 and 1 respectively.
 
 ![image alt](https://github.com/injamul-abeg/Position-Based-Interaction-Using-InteractML-in-Unity/blob/main/Red.png)
-
 ![image alt](https://github.com/injamul-abeg/Position-Based-Interaction-Using-InteractML-in-Unity/blob/main/Green.png)
 
 As we evaluated the accuracy of the model’s classification using confusion matrix, here
