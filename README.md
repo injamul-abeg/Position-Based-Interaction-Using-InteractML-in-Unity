@@ -26,7 +26,7 @@ Key Model Components:
 1. Input Features: Real-time position data of the avatar.
 2. Output Labels: Integer values 0 or 1.
 
-![image alt](https://github.com/injamul-abeg/Position-Based-Interaction-Using-InteractML-in-Unity/blob/main/Light_Intensity_InteractML.png?raw=true)
+![image alt](https://github.com/injamul-abeg/Position-Based-Interaction-Using-InteractML-in-Unity/blob/main/Model.png)
 
 Training and Evaluation
 Training Process
@@ -36,6 +36,9 @@ position differently after every input.
 • These recording examples were fed into the InteractML Classification Model for
 training which performs a binary classification. The model learned to associate
 position coordinates with the corresponding integer labels.
+
+![image alt](https://github.com/injamul-abeg/Position-Based-Interaction-Using-InteractML-in-Unity/blob/main/Data%20Recording.jpg)
+
 Evaluation
 • After training, we tested the model that is able to classify position of the avatar
 and control the light based on avatar´s current state. We evaluated the
