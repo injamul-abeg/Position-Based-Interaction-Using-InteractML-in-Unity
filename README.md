@@ -7,24 +7,34 @@ this data to adjust environmental parameters accordingly, such as changing the c
 environment light based on movement states. After recording several training examples
 we trained the classification model using InteractML, where the trained model can
 dynamically update environmental settings in Unity based on live position data.
+
 Dataset
+
 The dataset we used for this project consists of live position data recordings of an
 avatar in a clean lab environment. We recorded different training examples and each
 representing distinct states or behavior of the player. These recordings provided
 integer-labeled data points correspond to each state.
+
 Feature Extraction:
+
 • The primary feature extraction was the avatar's position coordinates (e.g., x, y, z).
 These features were mapped to the corresponding integer labels 0 or 1 to enable
 classification.
+
 Model
+
 We used InteractML’s Classification Model which is K-Nearest Neighbors (KNN)
 algorithm that classify avatar positions based on the training data we collected. The
 classification model takes the position data as input and outputs either 0 or 1 based on
 current state of the avatar. Several recording examples are needed to train and run a
 robust classification model.
+
 Key Model Components:
+
 1. Input Features: Real-time position data of the avatar.
+   
 2. Output Labels: Integer values 0 or 1.
+   
 
 ![image alt](https://github.com/injamul-abeg/Position-Based-Interaction-Using-InteractML-in-Unity/blob/main/Model.png)
 
